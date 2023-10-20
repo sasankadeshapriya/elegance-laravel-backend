@@ -1,0 +1,51 @@
+# Ignore vendor directory - Laravel dependencies.
+/vendor/
+
+# Ignore node_modules - Node.js dependencies.
+/node_modules/
+
+# Ignore public storage - generated assets.
+/public/storage
+
+# Ignore environment files - store secrets and sensitive information elsewhere.
+/.env
+/.env.*
+
+# Ignore database and cache files.
+/database/*.sqlite
+/storage/*.sqlite
+/bootstrap/cache/
+
+# Ignore mix-manifest.json file.
+/mix-manifest.json
+
+# Ignore .idea directory - PhpStorm IDE files.
+/.idea
+
+# Ignore .vscode directory - Visual Studio Code settings.
+/.vscode
+
+# Ignore Homestead/Vagrant local files.
+Homestead.json
+Homestead.yaml
+Homestead.yaml.example
+Vagrantfile
+
+# Ignore OS-generated files and directories.
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore logs and other application-generated files.
+/storage/logs/
+/storage/app/*
+/storage/framework/
+/storage/debugbar/
+/storage/app/public
+/storage/framework/testing/
+/tests/Report/
+
+# Ignore PHPUnit coverage report directory.
+/phpunit.xml
+/coverage/
